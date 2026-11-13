@@ -8,7 +8,7 @@ group :production do
   gem 'rouge', '~> 3.28.0'
 
   # Needed because of Jekyll + Ruby 3 bug https://github.com/jekyll/jekyll/issues/8523
-  gem 'webrick', '~> 1.7.0'
+  gem 'webrick', '~> 1.8.2'
 end
 
 group :jekyll_plugins do
